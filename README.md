@@ -22,3 +22,13 @@ cmake ..
 make
 ```
 
+# Building on Unix
+
+Same as building for OS X, except using clang by default. Need to set it by hand:
+```
+mkdir build
+cd build
+CC=clang CXX=clang++ cmake ..
+make
+```
+
